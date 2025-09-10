@@ -1,14 +1,9 @@
-import {useState, useEffect} from 'react'
-import { useNavigate } from 'react-router-dom' 
-import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { FaGoogle, FaFacebook, FaGithub, FaMicrosoft, FaYahoo } from 'react-icons/fa'
 import { Form } from '../../components/form/Form'
 
 export const Login = () => {
 
-
-    const navigate = useNavigate()
 
     return (
         <div className='py-3 py-md-5'>

@@ -1,6 +1,4 @@
-import { toast, ToastContainer } from 'react-toastify'
 import './Register.css'
-import { useNavigate } from 'react-router'
 import { FaUserPlus } from 'react-icons/fa'
 
 

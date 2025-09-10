@@ -1,10 +1,6 @@
-import { useState } from "react"
 
 export const Form = () => {
 
-    const [message, setMessage] = useState('')
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
 
     const handlerSubmit = (formData: FormData) => {
         const email = formData.get('email')

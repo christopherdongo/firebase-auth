@@ -14,7 +14,7 @@ export const Layout: React.FC = () => {
             {/* Header */}
 <Header />
             <main className="flex-row-1 min-vh-100">
-                 <Outlet />
+            <Outlet />
             </main>
 
             {/* footer */}
