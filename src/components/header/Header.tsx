@@ -1,17 +1,16 @@
 import { Navbar, Container, Nav, Button, Col } from 'react-bootstrap'
 import { AiOutlineLogin } from 'react-icons/ai'
 import { SiGnuprivacyguard } from 'react-icons/si'
+import { LOGO_URL } from '../constant'
 
 export const Header = () => {
-
-    const Logo = 'https://cdn.vectorstock.com/i/preview-1x/44/94/pn-initial-logo-concept-vector-33144494.jpg' 
 
     return (
         <Navbar bg='dark' variant='dark'>
            <Container>
             <Navbar.Brand href='/'>
             <img 
-             src={Logo}
+             src={LOGO_URL}
              width="40"
              height="40"
              className='d-inline-block align-top'
