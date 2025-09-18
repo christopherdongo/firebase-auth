@@ -9,10 +9,10 @@ export const Layout: React.FC = () => {
 
     return (
        <>
-       
-               <div className="d-flex flex-column min-vh-100 bg-light">
+         
             {/* Header */}
-<Header />
+            <Header />
+            <div className="d-flex flex-column min-vh-100 bg-light">
             <main className="flex-row-1 min-vh-100">
             <Outlet />
             </main>

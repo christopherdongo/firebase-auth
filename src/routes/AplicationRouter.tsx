@@ -23,9 +23,17 @@ import { AdminLayout } from '../components/layout/AdminLayout'
           element: <Register />, 
         },
         { path: "register/complete", element: <RegisterComplete /> },
-        { path: "/admin", element: <AdminLayout /> }
       ],
     },
+    {
+      path: '/admin',
+      element: <AdminLayout />,
+      children:[
+        {
+          path: 'dashboard', element: <Home />
+        }
+      ]
+    }
   ])
 
 export const AppRoutes = () => {
